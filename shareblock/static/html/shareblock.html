@@ -1,0 +1,33 @@
+<div class="shareblock_block">
+<p class="courses_available">ShareXBlock: count is now
+    <span class='count'>{self.count}</span> (click me to increment).
+    {self.parent_locator}
+</p>
+<button class="coursesbutton">list user courses</button>
+<div id="list_courses">
+	
+</div>
+<div id="list_chapters">
+	
+</div>
+<div id="list_sequentials">
+	
+</div>
+<div id="list_verticals">
+	
+</div>
+
+<label class="label" for="edit_parent_locator">Parent Locator</label>
+<input class="input setting-input edit-parent-locator" id="edit_parent_locator" value="{self.parent_locator}" type="text" disabled data-default-value="{self.parent_locator}">
+
+<label class="label" for="edit_duplicate_source_locator">Source Locator</label>
+<input class="input setting-input edit-duplicate-source-locator" id="edit_duplicate_source_locator" value="{self.duplicate_source_locator}" type="text" disabled data-default-value="{self.duplicate_source_locator}">
+
+<label class="label" for="edit_user_name">User Name</label>
+<input class="input setting-input edit-user-name" id="edit_user_name" type="text">
+
+<label class="label" for="edit_password">Password</label>
+<input class="input setting-input edit-password" id="edit_password" type="password">
+
+<button class="sharebutton">Share</button>
+</div>
